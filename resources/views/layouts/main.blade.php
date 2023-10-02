@@ -16,7 +16,7 @@
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>WPU Blog | {{ $title }}</title>
+    <title>Matapeda Blog | {{ $title }}</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     @include('partials.navbar')
 
     <div class="container mt-4">
-      @yield('container')
+        @yield('container')
     </div>
 
 
